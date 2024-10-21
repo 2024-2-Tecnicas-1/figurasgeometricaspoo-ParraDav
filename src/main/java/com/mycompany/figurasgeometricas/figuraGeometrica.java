@@ -7,8 +7,8 @@ package com.mycompany.figurasgeometricas;
 public class figuraGeometrica {
 
 //atributos de las figuras geometricas
-    private String name;
-    private String color;
+    protected String name;
+    protected String color;
 
 //contructor de las figuras
     public figuraGeometrica(String name, String color) {
@@ -34,15 +34,16 @@ public class figuraGeometrica {
         this.color = color;
     }
 //obtener área
-public double obtenerArea(){
-    
-    return 0;
-}
-    
+
+    public double obtenerArea() {
+
+        return 0;
+    }
+
 //obtener perimetro    
-public double obtenerPerimetro(){
-    
-    return 0;
-} 
+    public double obtenerPerimetro() {
+
+        return 0;
+    }
 
 }
